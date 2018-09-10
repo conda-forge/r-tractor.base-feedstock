@@ -1,4 +1,4 @@
-{% set version = '3.1.0' %}
+{% set version = "3.2.2" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,7 +13,7 @@ source:
     - https://cran.r-project.org/src/contrib/tractor.base_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/tractor.base/tractor.base_{{ version }}.tar.gz
 
-  sha256: 25e33a07de2bc31ae807c38488b0a9c6eadbdb17c35b3ecc1600fae7719f7034
+  sha256: fb458ed205a5c3ed317568762e649eb8e87fd4d0118babfa46069e66154c70dd
 
 build:
   number: 0
