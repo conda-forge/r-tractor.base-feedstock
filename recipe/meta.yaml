@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -49,6 +49,7 @@ about:
   license_family: GPL2
 extra:
    recipe-maintainers:
+    - conda-forge/r
     - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
