@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,12 +43,13 @@ test:
 
 about:
   home: https://cran.r-project.org/web/packages/tractor.base/index.html
-  license: GPL-2
-  summary: Functions for working with magnetic resonance images. Analyze, NIfTI-1, NIfTI-2 and
-    MGH format images can be read and written; DICOM files can only be read.
+  license: GPL-2.0-only
+  summary: Functions for working with magnetic resonance images. Analyze, NIfTI-1, NIfTI-2 and MGH format images can be read and written; DICOM files can only be read.
   license_family: GPL2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
-   recipe-maintainers:
+  recipe-maintainers:
     - conda-forge/r
     - dpryan79
     - MathiasHaudgaard
