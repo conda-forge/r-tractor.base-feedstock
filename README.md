@@ -5,11 +5,9 @@ Home: https://cran.r-project.org/web/packages/tractor.base/index.html
 
 Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tractor.base-feedstock/blob/master/LICENSE.txt)
 
 Summary: Functions for working with magnetic resonance images. Analyze, NIfTI-1, NIfTI-2 and MGH format images can be read and written; DICOM files can only be read.
-
-
 
 Current build status
 ====================
