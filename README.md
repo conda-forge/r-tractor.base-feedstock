@@ -1,11 +1,11 @@
-About r-tractor.base
-====================
+About r-tractor.base-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tractor.base-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.tractor-mri.org.uk, https://github.com/tractor/tractor
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tractor.base-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for working with magnetic resonance images. Reading and writing of popular file formats (DICOM, Analyze, NIfTI-1, NIfTI-2, MGH); interactive and non-interactive visualisation; flexible image manipulation; metadata and sparse image handling.
 
