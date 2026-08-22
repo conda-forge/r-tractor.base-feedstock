@@ -1,4 +1,4 @@
-{% set version = "3.5.0" %}
+{% set version = "3.5.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tractor.base_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tractor.base/tractor.base_{{ version }}.tar.gz
-  sha256: 04ab80116966ad99b081d4575c70777b8b80c1fff2ef9ccfc898430f24bc5270
+  sha256: 805ccbd6161e5ecc4d7e294c6ca440c25776c9608275689ccafd7b78d9fdb820
 
 build:
   number: 0
